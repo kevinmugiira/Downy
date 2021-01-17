@@ -23,3 +23,4 @@ Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'index']
 Route::get('/shop',[\App\Http\Controllers\ShopController::class, 'index']);
 Route::get('/payment',[\App\Http\Controllers\PaymentController::class, 'index']);
 Route::get('/checkout',[\App\Http\Controllers\CheckoutController::class, 'index']);
+Route::get('/single',[\App\Http\Controllers\SingleController::class,'create']);
