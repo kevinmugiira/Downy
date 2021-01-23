@@ -13,7 +13,7 @@ class SingleController extends Controller
      */
     public function index()
     {
-
+        return view ('single');
     }
 
     /**
@@ -23,7 +23,7 @@ class SingleController extends Controller
      */
     public function create()
     {
-        return view ('index');
+        //
     }
 
     /**

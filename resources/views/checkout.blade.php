@@ -42,7 +42,7 @@
                         <tbody>
                         <tr class="rem1">
                             <td class="invert">1</td>
-                            <td class="invert-image"><a href="single.html"><img src="/images/s1.jpg" alt=" " class="img-responsive"></a></td>
+                            <td class="invert-image"><a href="{{url('single')}}"><img src="/images/s1.jpg" alt=" " class="img-responsive"></a></td>
                             <td class="invert">
                                 <div class="quantity">
                                     <div class="quantity-select">
@@ -64,7 +64,7 @@
                         </tr>
                         <tr class="rem2">
                             <td class="invert">2</td>
-                            <td class="invert-image"><a href="single.html"><img src="/images/s5.jpg" alt=" " class="img-responsive"></a></td>
+                            <td class="invert-image"><a href="{{url('single')}}"><img src="/images/s5.jpg" alt=" " class="img-responsive"></a></td>
                             <td class="invert">
                                 <div class="quantity">
                                     <div class="quantity-select">
@@ -86,7 +86,7 @@
                         </tr>
                         <tr class="rem3">
                             <td class="invert">3</td>
-                            <td class="invert-image"><a href="single.html"><img src="/images/s2.jpg" alt=" " class="img-responsive"></a></td>
+                            <td class="invert-image"><a href="{{url('single')}}"><img src="/images/s2.jpg" alt=" " class="img-responsive"></a></td>
                             <td class="invert">
                                 <div class="quantity">
                                     <div class="quantity-select">
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-md-8 address_form">
                         <h4>Add a new Details</h4>
-                        <form action="payment.html" method="post" class="creditly-card-form agileinfo_form">
+                        <form action="{{url('payment')}}" method="post" class="creditly-card-form agileinfo_form">
                             <section class="creditly-wrapper wrapper">
                                 <div class="information-wrapper">
                                     <div class="first-row form-group">
@@ -165,7 +165,7 @@
                             </section>
                         </form>
                         <div class="checkout-right-basket">
-                            <a href="payment.html">Make a Payment </a>
+                            <a href="{{url('payment')}}">Make a Payment </a>
                         </div>
                     </div>
 
